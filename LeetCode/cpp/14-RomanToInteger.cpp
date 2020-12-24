@@ -1,4 +1,5 @@
 // Accepted: 12/22/20
+// Runtime: 4ms (faster than 92.62%)
 
 class Solution {
     // converts character s to its roman numeral value

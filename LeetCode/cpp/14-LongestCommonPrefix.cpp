@@ -1,4 +1,5 @@
 // Accepted: 12/23/20
+// Runtime: 4ms (faster than 94.44%)
 
 class Solution {
 public:

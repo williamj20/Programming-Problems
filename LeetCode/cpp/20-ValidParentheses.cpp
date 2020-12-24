@@ -1,4 +1,5 @@
 // Accepted: 12/23/20
+// Runtime: 4ms (faster than 17.18%)
 // This solution utilizes the vector structure like a Stack
 
 class Solution {

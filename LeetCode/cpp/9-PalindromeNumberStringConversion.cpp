@@ -1,4 +1,5 @@
 // Accepted: 12/22/20
+// Runtime: 12ms (faster than 55.25%)
 // This solution of the problem uses integer to string conversion
 
 class Solution {

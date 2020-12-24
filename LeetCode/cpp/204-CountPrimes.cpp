@@ -1,4 +1,5 @@
 // Accepted: 12/24/20
+// Runtime: 620ms (faster than 7.71%)
 
 class Solution {
     bool isPrime(int n) {

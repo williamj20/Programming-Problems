@@ -1,15 +1,18 @@
 // Accepted: 12/22/20
+// Runtime: 20ms (faster than 43.95%)
 
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         vector<int> indices;
-        for (unsigned int i = 0; i < nums.size(); i++) {
-            for (unsigned int j = i + 1; j < nums.size(); j++) {
-                if (nums[i] + nums[j] == target) {
-                    indices.push_back(i);
-                    indices.push_back(j);
-                }
+        map<int, int> m;
+        for (int i = 0; i < nums.size(); i++) {
+            if (m.count(target - nums[i])) {
+                indices.push_back(m[target - nums[i]]);
+                indices.push_back(i);
+            }
+            else {
+                m[nums[i]] = i;
             }
         }
         return indices;
