@@ -4,11 +4,11 @@
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
-        map<int, int> m;
+        set <int> s;
         int duplicate;
         for (int i = 0; i < nums.size(); i++) {
-            if (!m.count(nums[i])) {
-                m[nums[i]] = i;
+            if (!s.count(nums[i])) {
+                s.insert(s.begin(), nums[i]);
             }
             else {
                 duplicate = nums[i];
