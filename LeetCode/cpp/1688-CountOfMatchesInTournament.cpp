@@ -12,13 +12,11 @@ public:
         }
         if (n % 2 == 0) {
             numTeams = n / 2;
-            n /= 2;
-            
+            n /= 2;  
         }
         else {
             numTeams = (n - 1) / 2 + 1;
-            n = (n - 1) / 2;
-            
+            n = (n - 1) / 2;  
         }
         numMatches = n + numberOfMatches(numTeams);
         return numMatches;
