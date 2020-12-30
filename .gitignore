@@ -5,3 +5,5 @@ LeetCode/Python/.idea/modules.xml
 LeetCode/Python/.idea/Python.iml
 LeetCode/Python/.idea/vcs.xml
 LeetCode/Python/.idea/workspace.xml
+*.xml
+*.iml
